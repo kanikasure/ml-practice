@@ -5,7 +5,8 @@ Small ML/DL projects I build while learning, one folder each.
 | Project | What it does | Key result / takeaway |
 |---------|---------------|------------------------|
 | [house-price-prediction](house-price-prediction/) | EDA and cleaning of the Bengaluru house price dataset; feature engineering (bedrooms, sqft per room, etc.) | Learned how messy real-world categorical/numeric columns get, and how to systematically clean them before modeling |
-| [deep-learning/perceptron](deep-learning/perceptron/) | Trains a Perceptron on a toy placement dataset and visualizes the decision boundary | Saw how a linear model draws its decision boundary, and what `mlxtend.plotting.plot_decision_regions` needs to plot it |
+| [deep-learning/perceptron](deep-learning/perceptron.ipynb) | Trains a Perceptron on a toy placement dataset and visualizes the decision boundary | Saw how a linear model draws its decision boundary, and what `mlxtend.plotting.plot_decision_regions` needs to plot it |
+| [deep-learning/nn_from_scratch](deep-learning/nn_from_scratch.ipynb) | Builds a small 2-4-1 neural network in NumPy on `make_moons` data: parameter initialization and forward pass (tanh hidden layer, sigmoid output) | In progress: forward pass works (17 trainable parameters, outputs in (0, 1)); training not added yet |
 
 ## Setup
 
@@ -19,7 +20,7 @@ Datasets aren't committed. Each project reads from its own `data/` folder (ignor
 
 | Project | File | Source |
 |---------|------|--------|
-| house-price-prediction | `data/Bengaluru_House_Data.csv` | "Bengaluru House Price Data" on [Kaggle](https://www.kaggle.com/datasets?search=bengaluru+house+price) |
+| house-price-prediction | `data/Bengaluru_House_Data.csv` | "Bengaluru House Price Data" on [Kaggle](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data) |
 | deep-learning/perceptron | `data/placement.csv` | Toy dataset from the CampusX course |
 
 ## Credit
